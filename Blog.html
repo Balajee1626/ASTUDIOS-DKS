@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comatible" content="IE=edge">
+  <meta name="Viewpoint" content="width=device-width,initial-scale=1.0">
+  <title  >Studio</title>
+  <link rel="icon" type="image/jpg"  href="img/white.jpg">
+  <link rel="stylesheet" href="home.css">
+  
+</head>
+<body>
+  <section id="header">
+    <a href="#"><img src="img/A STUDIOS LOGO.jpg" class="logo" id="logo"></a>
+    <div>
+      <!-- Navigation bar -->
+      <ul id="navbar">
+        <li><a  href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a  class="active" href="Blog.html">Packages</a></li>
+        <li><a href="anout.html">About</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    
+      </ul>
+    </div>
+    <!-- Mobile navigation -->
+    <div id="mobile">
+
+    </div>
+  </section>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+  flex-direction: column;
+}
+
+/* Hide the navbar on mobile */
+#navbar {
+  display: flex;
+}
+
+/* Style for mobile navigation */
+#mobile {
+  display: flex;
+  justify-content: space-between;
+}
+#prodetails {
+    display: flex;
+    flex-direction: column;
+}
+#prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+}
+#prodetails  .single-pro-details {
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-p1{
+    padding:20px;
+  }
+  #header{
+    padding: 11px 31px;
+  }
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size:32px;
+  }
+  #hero{
+    padding:0 20px;
+    background-position: 55% ;
+  }
+  #feature{
+    justify-content: space-between;
+  }
+  #feature .fe-box{
+    width: 155px;
+    margin: 0 0 15px;
+  }
+  #product1 .pro{
+    width:100%;
+  }
+  #banner{
+    height:40vh;
+  }
+  #banner3{
+    padding: 0 20px;
+  }
+  #banner3 .banner-box{
+    width:100%;
+  }
+  #newsletter{
+    padding: 40px 20px;
+  }
+  #newsletter .form{
+    width:100%;
+  }
+  footer .copyright{
+    text-align: start;
+  }
+
+
+
+/* Center align content in hero section for mobile */
+#hero {
+  text-align: center;
+}
+
+/* Samsung smartphones specific styling */
+@supports (-webkit-touch-callout: none) {
+  /* Add Samsung-specific styles here */
+  body {
+    background-color: #f0f0f0; /* Light grey background for Samsung devices */
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  /* Adjust font size for better readability on Samsung devices */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Show the navbar on Samsung smartphones */
+  #navbar {
+    display: block;
+  }
+  /*single Product*/
+
+}
+}
+
+
